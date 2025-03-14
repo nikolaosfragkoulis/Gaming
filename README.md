@@ -27,7 +27,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 
 ## Steps to Run the Project
 
-  1. **Clone the Repository:**
+  1. **Clone the Repository**
 
    Open your terminal or command prompt and navigate to the directory where you want to store the project. Then, run the following command to clone the Git repository:
 
@@ -35,10 +35,17 @@ The project is structured to make it easy to maintain, extend, and run on any ma
    git clone https://github.com/nikolaosfragkoulis/Gaming.git
    ```
 
-  2. **Navigate to the Project Directory:**
+  2. **Navigate to the Project Directory**
 
    Change your current directory to the newly cloned project:
 
    ```bash
    cd Gaming
+   ```
+
+  3. **Create a virtual environment and activate it(Optional)**
+
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
    ```
