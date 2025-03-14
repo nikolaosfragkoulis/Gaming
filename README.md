@@ -15,9 +15,9 @@ The project is structured to make it easy to maintain, extend, and run on any ma
   │   ├── data_ingestion.py     Contains functions to convert CSV files to Parquet format.
   │   ├── data_processing.py    Load Parquet files into Pandas DataFrames
   │   ├── main.py
-  │   ├── question_1.py
-  │   ├── question_2.py
-  │   └── question_3.py
+  │   ├── question_1.py         Answer of Question 1
+  │   ├── question_2.py         Answer of Question 2
+  │   └── question_3.py         Answer of Question 3
   └── requirements.txt          Code dependencies needed to run the project
 ```
 
