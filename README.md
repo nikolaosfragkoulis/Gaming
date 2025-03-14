@@ -25,7 +25,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 ## Documentation
 
 
-## Installation
+## Steps to Run the Project
 
-  1. Download the folder to your Desktop
+  1. In Windows open the Command Prompt
   2. 
