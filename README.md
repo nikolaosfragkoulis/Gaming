@@ -65,6 +65,16 @@ The project is structured to make it easy to maintain, extend, and run on any ma
     Use the games table to count total home wins vs. away wins for each team.
     Calculate win rate (%) for home vs. away games.
 
+  6. ### Orchestration with the Main Script
+
+    **Central Execution:**
+    The main.py script serves as the central entry point that orchestrates the entire workflow.
+    It first triggers the CSV-to-Parquet conversion process.
+    Then, it calls the data processing and analysis modules (question_1.py, question_2.py, question_3.py, and custom_insights.py).
+    Finally, it displays the results in the console.
+    Purpose:
+    By running main.py, users can execute the full end-to-end process—from raw data ingestion to final analytical insights—with a single command. 
+
 ## Folder Structure
 
 ```
