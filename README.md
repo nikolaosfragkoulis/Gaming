@@ -27,5 +27,10 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 
 ## Steps to Run the Project
 
-  1. In Windows open the Command Prompt
-  2. 
+  1. **Clone the Repository:**
+
+   Open your terminal or command prompt and navigate to the directory where you want to store the project. Then, run the following command to clone the Git repository:
+
+   ```bash
+   git clone https://github.com/
+   ```
