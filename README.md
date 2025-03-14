@@ -17,10 +17,11 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 ## Documentation - Steps Taken to Reach the Final Solution
 
 1. **Data Ingestion and Preparation**
-    ##Raw Data:
-We began with raw football data provided in CSV format stored in the football_datasets/ folder.
-Encoding Considerations:
-Since CSV files can have various encodings, we implemented a robust data ingestion process that attempts to read the CSV files using UTF-8, Latin-1, and Windows-1252 encodings to ensure all files are read correctly.
+    ## Raw Data:
+    We began with raw football data provided in CSV format stored in the football_datasets/ folder.
+   
+    ## Handling Different Encodings:
+    Since CSV files can have various encodings, , we implemented a robust data ingestion process that attempts to read the CSV files using UTF-8, Latin-1, and Windows-1252 encodings to ensure all files are read correctly.
 
 
 ## Folder Structure
