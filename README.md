@@ -32,5 +32,5 @@ The project is structured to make it easy to maintain, extend, and run on any ma
    Open your terminal or command prompt and navigate to the directory where you want to store the project. Then, run the following command to clone the Git repository:
 
    ```bash
-   git clone https://github.com/
+   git clone https://github.com/nikolaosfragkoulis/Gaming.git
    ```
