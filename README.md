@@ -44,16 +44,15 @@ The project is structured to make it easy to maintain, extend, and run on any ma
    ```
 
   3. **Create and Activate a virtual environment (Optional)**
-    *-Create
-   ```bash
-   python -m venv venv
-   ```
-
-  4. **Activate the virtual Environment (Optional)**
-
-   ```bash
-   venv\Scripts\activate
-   ```
+  
+   - **Create a new environment**:
+     ```bash
+     python -m venv venv
+     ```
+   - **Activate the environment**:
+     ```bash
+     venv\Scripts\activate
+     ```
 
   4. **Install Dependencies**
    ```bash
