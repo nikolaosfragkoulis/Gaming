@@ -35,6 +35,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 3. ### Conversion to Parquet Format
     **Rationale:**
     Converting CSV files to Parquet improves data loading speeds and reduces storage overhead.
+   
     **Implementation:**
     In **data_ingestion.py**, a function was created to loop through each CSV file, try the various encodings if needed, and convert the successfully read DataFrames into Parquet files stored in the Parquet_files/ folder.
 
