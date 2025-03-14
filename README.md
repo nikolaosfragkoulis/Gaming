@@ -14,7 +14,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
   │   ├── custom_insights.py    Custom Insights
   │   ├── data_ingestion.py     Contains functions to convert CSV files to Parquet format.
   │   ├── data_processing.py    Load Parquet files into Pandas DataFrames
-  │   ├── main.py
+  │   ├── main.py               Main script that orchestrates the project workflow
   │   ├── question_1.py         Answer of Question 1
   │   ├── question_2.py         Answer of Question 2
   │   └── question_3.py         Answer of Question 3
