@@ -44,7 +44,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
    ```
 
   3. **Create and Activate a virtual environment (Optional)**
-
+    *-Create
    ```bash
    python -m venv venv
    ```
@@ -58,4 +58,9 @@ The project is structured to make it easy to maintain, extend, and run on any ma
   4. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
+   ```
+
+  4. **Run the code**
+   ```bash
+   python Code\main.py
    ```
