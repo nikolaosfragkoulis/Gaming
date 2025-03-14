@@ -16,7 +16,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 
 ## Documentation - Steps Taken to Reach the Final Solution
 
-1. ### Dynamic Configuration of File Paths
+### 1.Dynamic Configuration of File Paths
     **Modular Configuration:**
     To enhance portability, we created a **config.py** file that dynamically determines the project's root folder and constructs paths for both the CSV and Parquet directories.
     This ensures that the project works correctly regardless of the computer or directory in which it is placed.
@@ -24,7 +24,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
     **Centralized Settings:**
     The configuration file also includes a list of CSV filenames to be processed, keeping all file path settings in one centralized location.
 
-2. ### Data Ingestion and Preparation
+### 2.Data Ingestion and Preparation
     **Raw Data:**
     We began with raw football data provided in CSV format stored in the football_datasets/ folder.
    
