@@ -47,7 +47,6 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 
    ```bash
    python -m venv venv
-   venv\Scripts\activate
    ```
 
   4. **Activate the virtual Environment (Optional)**
