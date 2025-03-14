@@ -49,16 +49,16 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 5. ### Analysis and Insights Generation
 
     **Question 1:**
-    We merged player appearances with game data to calculate total goals and shots per player for each season and league, and then extracted the top 5 performers.
+    We merged player appearances with game data to calculate total goals and shots per player for each season and league, and then extracted the top 5 performers.(**question_1.py**)
 
     **Question 2:**
-    We analyzed corner-related goals by filtering shots based on their originating situation and match half, determining which half yielded more corner goals.
+    We analyzed corner-related goals by filtering shots based on their originating situation and match half, determining which half yielded more corner goals.(**question_2.py**)
 
     **Question 3:**
-    Focusing on La Liga, we merged game statistics with league information and calculated performance metrics such as total shots on target and moving averages(used a rolling window of 2 current and previous month).
+    Focusing on La Liga, we merged game statistics with league information and calculated performance metrics such as total shots on target and moving averages(used a rolling window of 2 current and previous month).(**question_3.py**)
 
     **Custom Insights:**
-    An additional analysis compared teams' home and away performances by computing win percentages.
+    An additional analysis compared teams' home and away performances by computing win percentages.(**custom_insights.py**)
     This could help bettors and analysts understand home-field advantage and team managers to analyze if they struggle in away games.
     Could indicate fan support impact or stadium conditions influencing results.
     Implementation Logic:
