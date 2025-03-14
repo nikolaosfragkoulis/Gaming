@@ -34,3 +34,11 @@ The project is structured to make it easy to maintain, extend, and run on any ma
    ```bash
    git clone https://github.com/nikolaosfragkoulis/Gaming.git
    ```
+
+  2. **Navigate to the Project Directory:**
+
+   Change your current directory to the newly cloned project:
+
+   ```bash
+   cd Gaming
+   ```
