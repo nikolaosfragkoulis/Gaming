@@ -1,7 +1,14 @@
 # Football Analytics Project
 
-This project processes football data from CSV files, converts them to Parquet, and then answers several questions about player performance, league stats, and custom insights.
+This project processes football data from raw CSV files, converts them to Parquet, and then answers several questions about player performance, league stats, and custom insights.
 The project is structured to make it easy to maintain, extend, and run on any machine with Python 3 and the necessary dependencies installed.
+
+  Insights Provided:
+  
+  Question 1: Top 5 players by goals (and shots) per league and season.
+  Question 2: Analysis of corner-related goal statistics by half.
+  Question 3: La Liga team performance with rolling averages for shots on target.
+  Custom Insight: Comparison of team performance at home versus away.
 
 ## Folder Structure
 
