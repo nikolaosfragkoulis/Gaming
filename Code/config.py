@@ -16,9 +16,9 @@ project_root = os.path.dirname(scripts_dir)
 
 #print(project_root)
 
-#Construct the paths for football_datasets and Parque_files:
+#Construct the paths for football_datasets and Parquet_files:
 football_datasets_csv_path = os.path.join(project_root, "football_datasets") + os.sep
-football_datasets_parquet_path = os.path.join(project_root, "Parque_files") + os.sep
+football_datasets_parquet_path = os.path.join(project_root, "Parquet_files") + os.sep
 
 # List of CSV files to be processed
 csv_files = ["appearances.csv"
