@@ -18,7 +18,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 
 1. **Dynamic Configuration of File Paths**
     ### Modular Configuration:
-    To enhance portability, we created a config.py file that dynamically determines the project's root folder and constructs paths for both the CSV and Parquet directories.
+    To enhance portability, we created a **config.py** file that dynamically determines the project's root folder and constructs paths for both the CSV and Parquet directories.
     This ensures that the project works correctly regardless of the computer or directory in which it is placed.
 
     ### Centralized Settings:
