@@ -43,7 +43,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
    cd Gaming
    ```
 
-  3. **Create a virtual environment (Optional)**
+  3. **Create and Activate a virtual environment (Optional)**
 
    ```bash
    python -m venv venv
@@ -53,4 +53,9 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 
    ```bash
    venv\Scripts\activate
+   ```
+
+  4. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
    ```
