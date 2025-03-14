@@ -24,11 +24,11 @@ The project is structured to make it easy to maintain, extend, and run on any ma
     **Centralized Settings:**
     The configuration file also includes a list of CSV filenames to be processed, keeping all file path settings in one centralized location.
 
-1. **Data Ingestion and Preparation**
-    ### Raw Data:
+2. ### Data Ingestion and Preparation
+    **Raw Data:**
     We began with raw football data provided in CSV format stored in the football_datasets/ folder.
    
-    ### Handling Different Encodings:
+    **Handling Different Encodings:**
     During initial testing, it was discovered that some CSV files used different character encodings.
     To address this, the data ingestion process was designed to attempt multiple encodings (UTF-8, Latin-1, and Windows-1252) to ensure that all files were read correctly..
 
