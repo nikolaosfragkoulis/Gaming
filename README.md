@@ -58,8 +58,12 @@ The project is structured to make it easy to maintain, extend, and run on any ma
     Focusing on La Liga, we merged game statistics with league information and calculated performance metrics such as total shots on target and moving averages(used a rolling window of 2 current and previous month).
 
     **Custom Insights:**
-    An additional analysis compared teams' home and away performances by computing win percentages, highlighting teams that perform significantly better at home—a useful insight for bettors, analysts, and team managers.
-
+    An additional analysis compared teams' home and away performances by computing win percentages.
+    This could help bettors and analysts understand home-field advantage and team managers to analyze if they struggle in away games.
+    Could indicate fan support impact or stadium conditions influencing results.
+    Implementation Logic:
+    Use the games table to count total home wins vs. away wins for each team.
+    Calculate win rate (%) for home vs. away games.
 
 ## Folder Structure
 
