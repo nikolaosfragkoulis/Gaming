@@ -32,7 +32,10 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 ```
 
 
-## Documentation
+## Documentation - Steps Taken to Reach the Final Solution
+
+1. **Data Ingestion and Preparation**
+
 
 
 ## Steps to Run the Project
