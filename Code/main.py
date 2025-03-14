@@ -18,16 +18,17 @@ def main():
     answer_q1 = q_1()
     print(answer_q1.to_string())
 
-    print("Processing data and retrieving in which half we had the most goals for Question 2...")
+    print("Processing data and retrieving in which half we had the most goals from corners for Question 2...")
     answer_q2 = q_2()
     print(answer_q2.to_string())
 
-    print("Processing data for Question 3...")
+    print("Processing data and retrieving the average shots on target for every team in La Liga for Question 3...")
     answer_q3 = q_3()
     print(answer_q3.to_string())
 
 
     print("Processing data for Custom Insight...")
+    print("Home vs. Away Performance!")
     answer_insights = insights()
     print(answer_insights.to_string())
 
