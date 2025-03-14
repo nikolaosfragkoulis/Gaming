@@ -68,7 +68,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 6. ### Orchestration with the Main Script
      
     **Central Execution:**
-    The main.py script serves as the central entry point that orchestrates the entire workflow.
+    The **main.py** script serves as the central entry point that orchestrates the entire workflow.
     It first triggers the CSV-to-Parquet conversion process.
     Then, it calls the data processing and analysis modules (question_1.py, question_2.py, question_3.py, and custom_insights.py).
     Finally, it displays the results in the console.
