@@ -21,8 +21,10 @@ The project is structured to make it easy to maintain, extend, and run on any ma
     We began with raw football data provided in CSV format stored in the football_datasets/ folder.
    
     ## Handling Different Encodings:
-    Since CSV files can have various encodings, , we implemented a robust data ingestion process that attempts to read the CSV files using UTF-8, Latin-1, and Windows-1252 encodings to ensure all files are read correctly.
+    During initial testing, it was discovered that some CSV files used different character encodings.
+    To address this, the data ingestion process was designed to attempt multiple encodings (UTF-8, Latin-1, and Windows-1252) to ensure that all files were read correctly..
 
+2. **Conversion to Parquet Format**
 
 ## Folder Structure
 
