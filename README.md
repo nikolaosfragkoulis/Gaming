@@ -9,7 +9,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
   Question 1: Top 5 players with most goals (and shots) per league and season.
   Question 2: Analysis of corner-related goal statistics by half.
   Question 3: La Liga team performance with rolling averages for shots on target.
-  Custom Insight: Comparison of team performance at home versus away.
+  Custom Insight: Comparison of team performance at home vs. away.
 
 ```
 
