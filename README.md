@@ -6,7 +6,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
 ## Folder Structure
 
 ```
-  Gaming/                      Root Folder
+  Gaming/                       Root Folder
   ├── football_datasets/        Raw CSV files
   ├── Parque_files/             Generated Parquet files
   ├── Code/
