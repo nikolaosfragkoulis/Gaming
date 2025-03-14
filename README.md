@@ -39,7 +39,12 @@ The project is structured to make it easy to maintain, extend, and run on any ma
     **Implementation:**
     In **data_ingestion.py**, a function was created to loop through each CSV file, try the various encodings if needed, and convert the successfully read DataFrames into Parquet files stored in the Parquet_files/ folder.
 
+4. ### Data Loading and Processing
+    **Loading Parquet Files:**
+    In **data_processing.py**, the load_data() function reads the Parquet files from the directory specified in **config.py** and loads them into pandas DataFrames for analysis.
 
+    **Modular Design:**
+    Separating data ingestion and loading into different modules allows for easier maintenance and extension of the project.
 
 
 
