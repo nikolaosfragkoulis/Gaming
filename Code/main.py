@@ -18,7 +18,7 @@ def main():
     answer_q1 = q_1()
     print(answer_q1.to_string())
 
-    print("Processing data for Question 2...")
+    print("Processing data and retrieving in which half we had the most goals for Question 2...")
     answer_q2 = q_2()
     print(answer_q2.to_string())
 
