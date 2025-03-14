@@ -46,7 +46,19 @@ The project is structured to make it easy to maintain, extend, and run on any ma
     **Modular Design:**
     Separating data ingestion and loading into different modules allows for easier maintenance and extension of the project.
 
+5. ### Analysis and Insights Generation
 
+    **Question 1:**
+    We merged player appearances with game data to calculate total goals and shots per player for each season and league, and then extracted the top 5 performers.
+
+    **Question 2:**
+    We analyzed corner-related goals by filtering shots based on their originating situation and match half, determining which half yielded more corner goals.
+
+    **Question 3:**
+    Focusing on La Liga, we merged game statistics with league information and calculated performance metrics such as total shots on target and moving averages(used a rolling window of 2 current and previous month).
+
+    **Custom Insights:**
+    An additional analysis compared teams' home and away performances by computing win percentages, highlighting teams that perform significantly better at home—a useful insight for bettors, analysts, and team managers.
 
 
 ## Folder Structure
