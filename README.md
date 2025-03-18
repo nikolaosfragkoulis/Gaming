@@ -24,7 +24,7 @@ The project is structured to make it easy to maintain, extend, and run on any ma
     **Centralized Settings:**
     The configuration file also includes a list of CSV filenames to be processed, keeping all file path settings in one centralized location.
 
-2. ###Data Ingestion and Preparation
+2. ### Data Ingestion and Preparation
     **Raw Data:**
     We began with raw football data provided in CSV format stored in the football_datasets/ folder.
    
